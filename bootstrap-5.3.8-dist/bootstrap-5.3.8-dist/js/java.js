@@ -5,7 +5,7 @@
 
 
 document.getElementById('contactForm').addEventListener('submit', function(e){
-  e.preventDefault(); // منع إعادة تحميل الصفحة
+  e.preventDefault(); 
 
   emailjs.sendForm('service_qn3ck7a', 'template_prfxtib', this)
     .then(function() {
