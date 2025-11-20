@@ -1,0 +1,572 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+NZ+Guides&family=Purple+Purse&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+.mainsection{
+   
+    
+    background-color: #2b2b2b;
+    
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.navbar{
+    width: 90%;
+    left: 5%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.833);
+}
+.navbar h3{
+    font-family: "Caprasimo", serif;
+    
+
+}
+.text{
+    left: 5%;
+    width: 100%;
+
+     min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b2b2b;
+    
+    
+}
+.text h1{
+     font-family: "Caprasimo", serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.text h1 span{
+     font-family: "Caprasimo", serif;
+    color: rgb(124, 95, 151);
+   
+}
+.text h4{
+    color: rgb(124, 95, 151);
+}
+.text p{
+    color: white;
+    max-width: 600px;
+}
+
+.text .btns a {
+    color: white;        
+  text-decoration: none;
+   width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border:2px solid rgb(124, 95, 151) ;
+    color: white;
+    background-color: #2b2b2b;
+    
+    
+
+
+}
+.mainsection .logos a{
+  color: white;
+  border: 1px solid rgb(124, 95, 151) ;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  
+}
+
+@media (max-width: 517px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+    gap: 5px !important;
+  }
+
+  .text h1 {
+    font-size: 24px;
+  }
+
+  .mainsection {
+    padding: 0 !important;
+  }
+}
+
+.section2{
+  background: linear-gradient(135deg, #2b2b2b 0%, rgb(124, 95, 151) 100%);
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-title{
+  font-family: "Caprasimo", serif;
+  font-size: 3rem;
+  color: white;
+}
+
+.section2-subtitle{
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.educ{
+  border-radius: 15px;
+  background-color: whitesmoke;
+  color: #2b2b2b;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.educ:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
+
+.educ-year{
+  font-weight: bold;
+  color: rgb(124, 95, 151);
+}
+
+.educ-year{
+  font-family: "Caprasimo", serif; 
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(124, 95, 151); 
+  margin-bottom: 10px;
+}
+
+.educ-degree{
+  font-family: "Lora", serif; 
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2b2b2b; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.educ-institution{
+  font-family: "Lora", serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(124, 95, 151); 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.educ-detail{
+  font-family: "Arial", sans-serif; /* خط بسيط وسهل القراءة */
+  font-size: 0.95rem;
+  color: #555; /* رمادي غامق للراحة البصرية */
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px){
+  .section2-title{
+    font-size: 2rem;
+  }
+  .educ{
+    padding: 20px 15px;
+  }
+}
+
+.section3{
+  background: linear-gradient(135deg, #2b2b2b 0%, rgb(124, 95, 151) 100%);
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px 20px;
+  color: white;
+  
+  
+}
+
+.section3 h2{
+  font-family: "Caprasimo", serif;
+  font-size: 3cqi;
+  color: white;
+}
+
+
+
+.section3 .TechnicalSkills{
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+
+}
+
+.section3 .TechnicalSkills h3{
+  font-family: "Caprasimo", serif;
+  font-size: 2rem;
+  color: rgb(124, 95, 151);
+  margin: 20px;
+
+}
+
+.section3 .skill label{
+  color: black;
+  margin-left: 5px;
+  font-family: "Lora", serif;
+}
+
+.section3 .skill .progress-bar{
+  background-color: rgb(174, 139, 207);
+}
+
+
+.ToolsSoftSkills {
+  max-width: 750px;
+  border-radius: 12px;
+  height: 420px;
+  
+  background: #fff;
+  padding: 30px;
+  
+}
+
+
+.ToolsSoftSkills h3 {
+  font-family: "Caprasimo", serif;
+  font-size: 2rem;
+  color: rgb(124, 95, 151);
+  margin-bottom: 25px;
+}
+
+
+.tool {
+  margin-bottom: 12px;
+}
+
+.tool button {
+  background: linear-gradient(135deg, rgb(147, 120, 173), #404040);
+  width: 100%;
+  max-width: 260px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+
+.tool button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width: 500px) {
+  .tool button {
+    max-width: 100%;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+.section4{
+  background-color: #404040;
+  padding:20px;
+
+}
+.section4 .section4-title{
+  font-family: "Caprasimo", serif;
+  font-size: 3rem;
+  color: rgb(124, 95, 151);
+  padding: 10px;
+
+
+}
+.section4 .dr{
+  color: #fff;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.card img {
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+
+.card-title {
+  font-family: "Caprasimo", serif;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+
+.card .d-flex span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background:linear-gradient(135deg, #ffb6c1, #725191);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.card .d-flex span:hover {
+  background: linear-gradient(135deg, #f3b4d3, #70439d);
+}
+
+
+.card a.btn {
+  background:linear-gradient(135deg, #ffb6c1, #725191);;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card a.btn:hover {
+  background: linear-gradient(135deg, #f3b4d3, #70439d);
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .card img {
+    max-height: 150px;
+  }
+}
+
+
+.project-card {
+  background-color: #fff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+.project-card .card-title {
+ font-family: "Caprasimo", serif;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-card .card-text {
+  
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.project-card .d-flex span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background:linear-gradient(135deg, #ffb6c1, #725191);;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .d-flex span:hover {
+ background: linear-gradient(135deg, #f3b4d3, #70439d);
+}
+
+.project-card a.btn {
+  background:linear-gradient(135deg, #ffb6c1, #725191);;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-card a.btn:hover {
+  background: linear-gradient(135deg, #f3b4d3, #70439d);
+  transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+  .project-card {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .project-card img {
+    max-height: 150px;
+  }
+}
+
+
+
+
+.contact-section {
+  padding: 50px 20px;
+  max-width: 1500px;
+  margin: auto;
+  background: linear-gradient(135deg, rgb(124, 95, 151) 0%, #2b2b2b 100%);
+}
+
+.contact-section h1 {
+  font-family: "Caprasimo", serif;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.contact-section .intro {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: rgb(124, 95, 151);
+  font-family: "Caprasimo", serif;
+}
+
+.contact-info .info-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-info .logos a{
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(124, 95, 151) ;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  
+}
+
+.contact-form-section {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form-section h2 {
+  margin-bottom: 20px;
+  color: rgb(124, 95, 151);
+  font-family: "Caprasimo", serif;
+}
+
+.contact-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form-section input:focus,
+.contact-form-section textarea:focus {
+  outline: none;
+  border-color: rgb(124, 95, 151);
+  box-shadow: 0 0 5px rgba(124, 95, 151, 0.5);
+}
+
+.contact-form-section button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: rgb(124, 95, 151);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form-section button:hover {
+  background: rgb(150, 120, 180);
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 30px 15px;
+  }
+
+  .contact-section h1 {
+    font-size: 28px;
+  }
+}
+
+
+
